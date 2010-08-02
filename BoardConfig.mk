@@ -9,7 +9,7 @@ TARGET_NO_BOOTLOADER := true
 
 TARGET_BOOTLOADER_BOARD_NAME := MSM7x25
 
-BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=qcom console=ttyUSBCONSOLE0 androidboot.console=ttyUSBCONSOLE0
+BOARD_KERNEL_CMDLINE := mem=128M console=ttyMSM2,115200n8 androidboot.hardware=qcom console=ttyUSBCONSOLE0 androidboot.console=ttyUSBCONSOLE0
 BOARD_KERNEL_BASE := 0x10000000
 
 BOARD_BOOTIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x00280000)
